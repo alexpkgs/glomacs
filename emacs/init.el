@@ -1,10 +1,10 @@
 ;; Emacs Configuration
 
 ;; Font
-(add-to-list 'default-frame-alist '(font . "Fira Code Light 12"))
-(set-face-attribute 'default t :font "Fira Code Light 12")
-(set-face-attribute 'default nil :font "Fira Code Light 12")
-(set-frame-font "Fira Code Light 12" nil t)
+(add-to-list 'default-frame-alist '(font . "Fira Code 12"))
+(set-face-attribute 'default t :font "Fira Code 12")
+(set-face-attribute 'default nil :font "Fira Code 12")
+(set-frame-font "Fira Code 12" nil t)
 
 ;; UI Stuff
 (tool-bar-mode -1)
